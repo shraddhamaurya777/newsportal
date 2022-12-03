@@ -1,0 +1,493 @@
+<html>
+<head>
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/all.css" rel="stylesheet">
+<script src="js/bootstrap.bundle.js"></script>
+<style>
+.text-bg-mycolor
+{
+	background:linear-gradient(60deg,yellow,green)!important;
+}
+.s
+{
+backround:black;
+color:white;
+height:30px;
+width:30px;
+line-height:30px;
+border:2 px solid black;
+border-radius:2px;
+}
+.s:hover
+{
+transform:rotate(360deg);
+transition:all ease 2s;
+background:transparent;
+color:blue;
+}
+.carousel-caption 
+{
+color:blue;
+font-size:20px;
+background:rgba(0,0,0,.4)!important;
+}
+</style>
+</head>
+<body>
+<div class="container-fluid">
+<!-- main row start -->
+<div class="row top text-bg-mycolor text-center ">
+<div class="col-sm-4 pt-2">
+</div>
+<div class="col-sm-4 ">
+<b class="text-white"><i class="fa-solid fa-envelope text-white"></i>shraddhamaurya@gmail.com</b>
+
+</div>
+<div class="col-sm-3 fs-4">
+<i class="fa-brands fa-square-facebook s "></i>
+<i class="fa-brands fa-square-youtube s"></i>
+<i class="fa-brands fa-twitter s"></i>
+<i class="fa-brands fa-instagram s"></i>
+</div>
+</div>
+<!-- main row end -->
+
+<div class="row-header text-center fs-1 bg-light">
+<!-- start header code-->
+<b style="font-family:Old English Text MT;">Bhaskar time<i class="fa-solid fa-clock text-danger"></i></b>
+<!-- end header code-->
+</div>
+
+<!-- header row menu start -->
+<div class="row header sticky-top bg-white ">
+<div class="col-sm-3 bg-light "></div>
+<div class="col-sm-9 ">
+<nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+		
+          <a class="nav-link active" aria-current="page" href="#">
+		  <i class="fa-solid fa-house-user"></i> Home</a>
+		  </li>
+		<li class="nav-item">
+          <a class="nav-link" href="jai.html">
+		  <i class="fa-solid fa-address-card"></i>aboutus</a>
+        </li>
+		
+		<li class="nav-item">
+          <a class="nav-link" href="#">
+		  <i class="fa-solid fa-newspaper"></i>news</a>
+        </li>
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		  <i class="fa-brands fa-envira"></i>gallery</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">video</a></li>
+            <li><a class="dropdown-item" href="demo19.html">picture</a></li>
+              
+          </ul>
+        </li>
+        <li class="nav-item active">
+          <a href="demo21.html" class="nav-link ">
+		  <i class="fa-solid fa-phone"></i>contactus</a>
+		   <li class="nav-item active">
+          <a href="modaltask2.html" class="nav-link ">
+		  <i class="fa-regular fa-comment"></i>feedback</a>
+        </li>
+		 <li class="nav-item">
+          <a href="savita.html" class="nav-link">
+		  <i class="fa-solid fa-right-to-bracket"></i>login</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+</div>
+</div>
+<!-- header row menu start -->
+
+<!-- images news content start-->
+<div class="row contact box p-0 ">
+
+<div class="col-sm-8 t-0 ">
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousle">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/dc.jpg" class="d-block w-100 " alt="..." style="max-height:600px;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+	
+    <div class="carousel-item" data-bs-interval="500">
+      <img src="images/yogi.jpg" class="d-block w-100" alt="..." style="max-height:550px;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+	
+    <div class="carousel-item" data-bs-interval="500">
+      <img src="images/dm.jpg" class="d-block w-100" alt="..." style="max-height:550px;">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--hlogjhjjkkjh-->				
+</div>
+<div class="col-sm-4 "><marquee direction="up" scrollamount="20">
+<p style="font-size:25px;"> Top 10 News<b class="text-danger "> Headline<i class="fa-solid fa-newspaper"></i></b></p>
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+	
+      <img src="images/dk.jpg" class="img-fluid rounded-start h-100" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body ">
+       
+        <p class="card-text"><b>Fact Check: Yes ‘Brahmastra’ was renamed from ‘Dragon’, no it had nothing to do with the Pulwama attack </b></p>
+		<span class="btn btn-danger mt-1"> view more<i class="fa-regular fa-eye"></i> </span>
+		
+        <p class="card-text mt-2"><small class="text-muted"><i class="fa-solid fa-calendar-days text-danger"></i>Date:Sept,9 2022</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+	
+      <img src="images/modi1.jpg" class="img-fluid rounded-start h-100" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body ">
+       
+        <p class="card-text"><b>जम्मू-कश्मीर पर मंथन:PM मोदी 24 जून को सर्वदलीय बैठक बुला सकते हैं, शाह ने डोभाल समेत रॉ और IB चीफ के साथ मीटिंग की
+</b></p>
+		<span class="btn btn-danger mt-1"> view more<i class="fa-regular fa-eye"></i> </span>
+		
+        <p class="card-text mt-2"><small class="text-muted"><i class="fa-solid fa-calendar-days text-danger"></i>Date:Sept,9 2022</small></p>
+      </div>
+    </div>
+	
+  </div>
+</div>
+
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+	
+      <img src="images/yogi.jpg" class="img-fluid rounded-start h-100" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body ">
+       
+        <p class="card-text"><b>Prime Minister Narendra Modi congratulates Yogi Adityanath
+ </b></p>
+		<span class="btn btn-danger mt-1"> view more<i class="fa-regular fa-eye"></i> </span>
+		
+        <p class="card-text mt-2"><small class="text-muted"><i class="fa-solid fa-calendar-days text-danger"></i>Date:Sept,9 2022</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+</marquee>
+</div>
+</div>
+<!-- images news content end-->
+<div class="row category mt-5">
+<!------- this is start code ------->
+<div class="col-sm-3">
+<div class="card" style="width: 18rem;">
+  <img src="images/modi1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-title text-danger fs-1">BJP</p>
+  </div>
+</div>
+</div>
+
+<div class="col-sm-3">
+<div class="card" style="width: 18rem;">
+  <img src="images/kohli12.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-title text-danger fs-1">cricket</p>
+  </div>
+</div>
+</div>
+
+
+<div class="col-sm-3">
+<div class="card" style="width: 18rem;">
+  <img src="images/azyxay.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-title text-danger fs-1">Politics</p>
+  </div>
+</div>
+</div>
+
+
+<div class="col-sm-3">
+<div class="card" style="width: 18rem;">
+  <img src="images/picxab.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-title text-danger fs-1">ayodhya</p>
+  </div>
+</div>
+</div>
+</div>
+<!------- this is end code   ------->
+<div class="row latest mt-3 text-center ">
+<h1>latest <b class="text-danger">news<i class="fa-solid fa-newspaper"></i></b></h1>
+<!------- latest news code start --------->
+<div class="col-sm-3">
+<div class="card" style="width: 18rem;">
+  <img src="images/z1.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Mumbai: 2 motorcyclists killed in road crashes</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-danger">view more<i class="fa-regular fa-eye"></i></a>
+	 <p class="card-text mt-2"><small class="text-muted"><i class="fa-solid fa-calendar-days text-danger"></i>Date:Sept,9 2022</small></p>
+  </div>
+</div>
+</div>
+
+<div class="col-sm-3">
+<div class="card" style="width: 18rem;">
+  <img src="images/z2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Need promotion policy hand-holding Vid</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-danger">view more<i class="fa-regular fa-eye"></i></a>
+	 <p class="card-text mt-2"><small class="text-muted"><i class="fa-solid fa-calendar-days text-danger"></i>Date:Sept,9 2022</small></p>
+  </div>
+</div>
+</div>
+
+<div class="col-sm-3">
+<div class="card" style="width: 18rem;">
+  <img src="images/z3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title"> Donald Trump's 22 Times At Ahmedabad's Motera</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-danger">view more<i class="fa-regular fa-eye"></i></a>
+	 <p class="card-text mt-2"><small class="text-muted"><i class="fa-solid fa-calendar-days text-danger"></i>Date:Sept,9 2022</small></p>
+  </div>
+</div>
+</div>
+
+<div class="col-sm-3">
+<div class="card" style="width: 18rem;">
+  <img src="images/z4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">CEC must be apolitical,Ahmedabad's </h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-danger">view more<i class="fa-regular fa-eye"></i></a>
+	 <p class="card-text mt-2"><small class="text-muted"><i class="fa-solid fa-calendar-days text-danger"></i>Date:Sept,9 2022</small></p>
+  </div>
+</div>
+</div>
+
+</div>
+<!------- latest news code end   --------->
+<div class="container">
+<div class="row video mt-4 text-center ">
+<h1>latest news<b class="text-danger">video<i class="fa-solid fa-newspaper"></i></b></h1>
+<!------- latest news video code end   --------->
+<div class="col-sm-6 ">
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+	
+      <img src="images/modi1.jpg" class="img-fluid rounded-start h-100" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body ">
+       
+        <p class="card-text"><b>जम्मू-कश्मीर पर मंथन:PM मोदी 24 जून को सर्वदलीय बैठक बुला सकते हैं, शाह ने डोभाल समेत रॉ और IB चीफ के साथ मीटिंग की</b></p>
+		<span class="btn btn-danger mt-1"> view more<i class="fa-regular fa-eye"></i> </span>
+        <p class="card-text mt-2"><small class="text-muted"><i class="fa-solid fa-calendar-days text-danger"></i>Date:Sept,9 2022</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+	
+      <img src="images/dk.jpg" class="img-fluid rounded-start h-100" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body ">
+       
+        <p class="card-text"><b>Fact Check: Yes ‘Brahmastra’ was renamed from ‘Dragon’, no it had nothing to do with the Pulwama attack </b></p>
+		<span class="btn btn-danger mt-1"> view more<i class="fa-regular fa-eye"></i> </span>
+        <p class="card-text mt-2"><small class="text-muted"><i class="fa-solid fa-calendar-days text-danger"></i>Date:Sept,9 2022</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+	
+      <img src="images/yogi.jpg" class="img-fluid rounded-start h-100" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body ">
+       
+        <p class="card-text"><b>Prime Minister Narendra Modi congratulates Yogi Adityanath
+ </b></p>
+		<span class="btn btn-danger mt-1"> view more<i class="fa-regular fa-eye"></i> </span>
+        <p class="card-text mt-2"><small class="text-muted"><i class="fa-solid fa-calendar-days text-danger"></i>Date:Sept,9 2022</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
+<div class="col-sm-6">
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+	
+      <img src="images/kohli12.jpg" class="img-fluid rounded-start h-100" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body ">
+       
+        <p class="card-text"><b>Dinesh Karthik's Rant Over Vijay Hazare Trophy Format After Tamil Nadu Score 506 vs Arunachal Pradesh</b></p>
+		<span class="btn btn-danger mt-1"> view more<i class="fa-regular fa-eye"></i> </span>
+        <p class="card-text mt-2"><small class="text-muted"><i class="fa-solid fa-calendar-days text-danger"></i>Date:Sept,9 2022</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+	
+      <img src="images/picxab.jpg" class="img-fluid rounded-start h-100" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body ">
+       
+        <p class="card-text"><b>Planning, resolve & novel ideas in Ayodhya: What all it took to set up world record once again</b></p>
+		<span class="btn btn-danger mt-1"> view more<i class="fa-regular fa-eye"></i> </span>
+        <p class="card-text mt-2"><small class="text-muted"><i class="fa-solid fa-calendar-days text-danger"></i>Date:Sept,9 2022</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+	
+      <img src="images/dm.jpg" class="img-fluid rounded-start h-100" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body ">
+       
+        <p class="card-text"><b>PM Modi Took Donald Trump's Name 22 Times At Ahmedabad's Motera Stadium</b></p>
+		<span class="btn btn-danger mt-1"> view more<i class="fa-regular fa-eye"></i> </span>
+        <p class="card-text mt-2"><small class="text-muted"><i class="fa-solid fa-calendar-days text-danger"></i>Date:Sept,9 2022</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+</div>
+<!------- latest news video code end   --------->
+<div class="row city text-center">
+<h1>city<b class="text-danger"><i class="fa-solid fa-newspaper"></i></b></h1>
+<!-------  city code start --------->
+<div class="col-sm-3">
+<div class="card" style="width: 18rem;">
+  <img src="images/picxab.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-title text-danger fs-1">Ayodhya</p>
+  </div>
+</div>
+</div>
+
+<div class="col-sm-3">
+<div class="card" style="width: 18rem;">
+  <img src="images/ccc.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-title text-danger fs-1">New Delhi</p>
+  </div>
+</div>
+</div>
+
+<div class="col-sm-3">
+<div class="card" style="width: 18rem;">
+  <img src="images/lko2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-title text-danger fs-1">Lucknow</p>
+  </div>
+</div>
+</div>
+
+<div class="col-sm-3">
+<div class="card" style="width: 18rem;">
+  <img src="images/brin.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-title text-danger fs-1">Brindavan</p>
+  </div>
+</div>
+</div>
+</div>
+<!-------  city code end --------->
+
+<div class="row footer bg-dark py-5 mt-5">
+<div class="col-sm-4 pt-4">
+<p style="font-size:40px;color:white;text-align:center;">Bhaskar</br><b class="text-danger"> Times<i class="fa-solid fa-clock text-danger"></i></b></p>
+<img src="images/logoA.jpg" class="px-5 h-10" style="margin-left:90px; "/>
+</div>
+<div class="col-sm-4">
+<p style="color:white;"> Google Translate is a multilingual neural machine translation service developed by Google to translate text, documents and websites from one language into another. It offers a website interface, a mobile app for Android and iOS</p>
+
+<p style="color:white;">Google Translate is a multilingual neural machine translation service developed by Google to translate text, documents and websites from one language into another. It offers a website interface, a mobile app for Android and iOS</p>
+</div>
+<div class="col-sm-4 ">
+<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d28471.72624373444!2d80.93951277741392!3d26.87282827124864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1stechpile!5e0!3m2!1sen!2sin!4v1669111804478!5m2!1sen!2sin" class="w-100" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</div>
+</div>
+</body>
+
+</html>___

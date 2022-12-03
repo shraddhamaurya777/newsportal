@@ -1,0 +1,47 @@
+
+<!-- saved from url=(0053)file:///C:/Users/hp/Desktop/java%20script/demo19.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<style>
+#box
+{
+height:500px;
+width:1000px;
+border:20px groove aqua;
+border-radius:10px;
+color:white;
+text-align:center;
+line-height:500px;
+font-size:60px;
+font-family:impact;
+margin:0px auto;
+background:url("images a6.jpg.jpg");
+background-size:cover;
+}
+</style>
+</head>
+<body>
+<center>
+<h1>SLIDER</h1>
+background:rgba(40,54,56,.5)
+
+</center>
+<div id="box">MESSAGE</div>
+<script>
+var txt=["WELCOME TO TECHPILE","WELCOME TO THE WORLD OF JS","TEXT3","TEXT4"]
+var arr=["images a1.jpeg","images a2.jpg","images a3.jpeg","images a4.jpg"]
+var i=0
+function silder()
+{
+var dv=document.queryselector("#box")
+dv.style.background="url('images/"+arr[i]+"')"
+//dv.style.background="url('"+arr[i]+"')"
+dv.style.backgroundsize="cover"
+dv.innertext=txt[i]
+i++
+if(i==arr.length)
+i=0
+}
+window.setintervel(slider,3000)
+</script>
+
+</body></html>
